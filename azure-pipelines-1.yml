@@ -20,7 +20,7 @@ stages:
   - stage: DeployWebsite
     displayName: 'Deploy website'
     pool:
-      name: DotNetAgent
+      vmImage: windows-latest
     
     jobs:
     - deployment: DeployWebsite
