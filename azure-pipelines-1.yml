@@ -10,7 +10,7 @@ variables:
   IISWebsiteName: 'AzureTestProject'
 
 resources:
- pipelines:
+  pipelines:
      - pipeline: 'buildPipeline'
        project: 'AzureTestProject'
        source: 'Build pipeline'
